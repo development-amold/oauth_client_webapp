@@ -3,7 +3,7 @@ class User < ApplicationRecord
           :registerable,
           :recoverable,
           :rememberable,
-          :trackable,
+          # :trackable,
           :validatable,
           :omniauthable, omniauth_providers: [:amoldoorkeeper]
 

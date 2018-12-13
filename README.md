@@ -1,10 +1,12 @@
 # README
 
-*https://github.com/danishmughal/rails-devise-omniauth
-*https://github.com/doorkeeper-gem/doorkeeper/wiki/Create-a-OmniAuth-strategy-for-your-provider
-*https://github.com/omniauth/omniauth-oauth2
+* https://github.com/danishmughal/rails-devise-omniauth
 
-*SAMPLE PROVIDER DATA
+* https://github.com/doorkeeper-gem/doorkeeper/wiki/Create-a-OmniAuth-strategy-for-your-provider
+
+* https://github.com/omniauth/omniauth-oauth2
+
+* SAMPLE PROVIDER DATA
 
 Application: My Test Client App 2
 Application UID:

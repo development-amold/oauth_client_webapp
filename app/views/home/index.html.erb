@@ -1,3 +1,7 @@
-<h1>Home#index</h1>
-<p><%= current_user&.email %></p>
-<p><%= link_to "Login with my provider", user_amoldoorkeeper_omniauth_authorize_path, data: { disable_with: "Sending..." } %></p>
+<h1>CLIENT API</h1>
+<% if current_user %>
+	<p>Logged in as: <%= current_user.email %>&nbsp;&nbsp;| <%= link_to "Logout", logout_path %> &nbsp;&nbsp;</p> 
+<% else %>
+	<p><%= link_to "Login with my provider", user_amoldoorkeeper_omniauth_authorize_path,:method => :get, data: { disable_with: "Sending..." } %></p>
+	<p><%= link_to "Login", new_user_session_path, data: { disable_with: "Sending..." } %></p>	
+<% end %>	
